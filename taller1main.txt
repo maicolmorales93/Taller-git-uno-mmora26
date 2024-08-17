@@ -1,0 +1,70 @@
+Taller # 1 Pseudocodigo y diagrama de flujos
+
+Analista: Maicol Brayan Morales Alzate
+
+1.	Programa Mayor y menor de 3 valores enteros
+
+Inicio  Mayor_y_menor_de_3_valores
+{
+
+     	Entero n1=0;
+	Entero n2=0;
+	Entero n3=0;
+	Entero mayor=0;
+	Entero menor=0;
+
+Escriba”ingrese el valor de A: “;
+Leer n1;
+Escriba”ingrese el valor de B: “;
+Leer n2;
+
+Si(n1==n2){
+        Escriba”A es igual que B , deben ser números diferentes, ingrese nuevamente B: “;
+        Leer n2;
+}
+Escriba”ingrese el valor de C: “;
+Leer n3;
+
+Si((n3==n1) || (n3==n2)){
+Escriba”C es igual que A o B , deben ser números diferentes, ingrese nuevamente C: “;
+Leer n3;
+}
+         Si ( (n1>n2) && (n1>n3){
+ Mayor=n1;
+Escriba”El valor mayor es A: ”+n1;
+   Si (n2>n3){
+   Escriba”El valor menor es C: “+n3;
+  
+  }
+Sino {
+        Escriba”El valor menor es B: “+n3;
+}
+}
+
+
+Sino {
+
+          Si((n2>n1) &&( n2>n3)){
+          Escriba”El valor mayor es B: ”+n2;
+           Si (n1>n3){
+        Escriba”El valor menor es C: “+n3;
+  
+           }
+         Sino {
+          Escriba”El valor menor es A: “+n1;
+          }
+
+ }       
+Sino{
+              Escriba”El valor mayor es C: ”+n3;
+           Si (n1>n2){
+   Escriba”El valor menor es B: “+n2;
+  
+  }
+Sino {
+        Escriba”El valor menor es A: “+n1;
+
+}
+
+
+FIN Mayor_y_menor_de_3_valores
