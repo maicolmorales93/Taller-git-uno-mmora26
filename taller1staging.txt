@@ -1,0 +1,9 @@
+2.	Algoritmo de sumas del 1 al 10
+Inicio Suma_numeros
+
+Entero suma=0;
+Escriba”Programa para sumar los números del 1 al 10”;
+Suma=(1+2+3+4+5+6+7+8+9+10);
+Escriba”El resultado de los números del 1  al 10  es: “+suma;
+
+Fin Suma_numeros
